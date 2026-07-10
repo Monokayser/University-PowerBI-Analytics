@@ -25,10 +25,9 @@ The `docs/` folder is prepared for GitHub Pages and contains:
 - `downloads/University_Academic_Analytics_Cleaned.xlsx` - cleaned workbook download
 - `downloads/University_PowerBI_Analytics_v1.0.0.zip` - full project package
 - `downloads/University_Analytics_Demo.mp4` - demo video
+- `assets/screenshots/published_dashboard.png` - real screenshot from the published analytics page
+- `assets/screenshots/demo_page.png` - real screenshot from the demo video page
 
 ## Important Limitation
 
 The published viewer is a static analytics publication generated from the cleaned data. It does not replace a genuine Power BI Service report. Power BI Desktop was unavailable in the build environment, so the `.pbix` and Power BI Service live report must still be created manually from the included build guide.
-
-- `assets/screenshots/published_dashboard.png` - real screenshot from the published analytics page
-- `assets/screenshots/demo_page.png` - real screenshot from the demo video page

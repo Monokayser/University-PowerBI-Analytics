@@ -1,1 +1,108 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>University Academic Analytics</title><link rel="stylesheet" href="assets/style.css"><script src="https://cdn.jsdelivr.net/npm/chart.js"></script></head><body><header><h1>University Academic Analytics</h1><p>Public analytics viewer for a synthetic Power BI assignment dataset covering enrollment, academic performance, attendance, finance, faculty workload, and department budgets.</p><div class="bar"><a href="downloads/PowerBI_Project_Report.pdf">Report PDF</a><a href="downloads/PowerBI_Project_Presentation.pptx">Presentation</a><a href="downloads/University_PowerBI_Analytics_v1.0.0.zip">Full Project ZIP</a><a href="demo.html">Demo Video</a><a href="https://github.com/Monokayser/University-PowerBI-Analytics">GitHub Repo</a></div></header><main class="wrap"><div class="notice">This public viewer is a static analytics publication generated from the cleaned dataset. Power BI Desktop was unavailable, so the actual .pbix and Power BI Service link remain documented manual steps rather than fabricated deliverables.</div><section class="kpis" id="kpis"></section><section class="grid"><div class="panel wide"><h2>Published Dashboard Screenshot</h2><img class="screen" src="assets/screenshots/published_dashboard.png" alt="Published analytics dashboard screenshot"></div><div class="panel"><h2>Enrollment by Semester</h2><canvas id="enrollSemester"></canvas></div><div class="panel"><h2>Students by Department</h2><canvas id="studentsDept"></canvas></div><div class="panel"><h2>Average Mark by Department</h2><canvas id="avgMarkDept"></canvas></div><div class="panel"><h2>Payment Status</h2><canvas id="paymentStatus"></canvas></div><div class="panel"><h2>Outstanding Fees by Department</h2><canvas id="outstandingDept"></canvas></div><div class="panel"><h2>Grade Distribution</h2><canvas id="gradeDist"></canvas></div><div class="panel"><h2>Attendance by Department</h2><canvas id="attendanceDept"></canvas></div><div class="panel"><h2>Top Course Failure Rates</h2><canvas id="courseFail"></canvas></div><div class="panel wide"><h2>Budget Utilization</h2><table id="budgetTable"></table></div><div class="panel wide"><h2>Main Analytical Findings</h2><div class="findings" id="findings"></div></div></section></main><footer class="wrap">All data is fictional and generated for academic demonstration. No real student information is included.</footer><script src="assets/app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>University Academic Analytics</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Synthetic Power BI Assignment Dataset</p>
+      <h1>University Academic Analytics</h1>
+      <p class="hero-copy">A public analytics viewer for enrollment, academic performance, attendance, finance, faculty workload, and department budget insights.</p>
+      <nav class="actions" aria-label="Project links">
+        <a href="#kpis">Analytics</a>
+        <a href="demo.html">Demo Video</a>
+        <a href="downloads/PowerBI_Project_Report.pdf">Report PDF</a>
+        <a href="downloads/PowerBI_Project_Presentation.pptx">Presentation</a>
+        <a href="downloads/University_PowerBI_Analytics_v1.0.0.zip">Full ZIP</a>
+        <a href="https://github.com/Monokayser/University-PowerBI-Analytics">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="notice">
+      <strong>Publication note:</strong> this is a static analytics viewer generated from the cleaned dataset. Power BI Desktop was unavailable, so the actual `.pbix` and Power BI Service report remain documented manual steps rather than fabricated deliverables.
+    </section>
+
+    <section id="kpis" class="kpis" aria-label="Key metrics"></section>
+
+    <section class="section-head">
+      <div>
+        <p class="eyebrow">Management Overview</p>
+        <h2>Core Analytics</h2>
+      </div>
+      <p>All charts are generated from the cleaned Excel dataset included in the repository and release package.</p>
+    </section>
+
+    <section class="grid">
+      <article class="panel">
+        <h3>Enrollment by Semester</h3>
+        <div class="chart-box"><canvas id="enrollSemester"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <h3>Students by Department</h3>
+        <div class="chart-box"><canvas id="studentsDept"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <h3>Average Mark by Department</h3>
+        <div class="chart-box"><canvas id="avgMarkDept"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <h3>Payment Status</h3>
+        <div class="chart-box compact"><canvas id="paymentStatus"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <h3>Outstanding Fees by Department</h3>
+        <div class="chart-box"><canvas id="outstandingDept"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <h3>Grade Distribution</h3>
+        <div class="chart-box"><canvas id="gradeDist"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <h3>Attendance by Department</h3>
+        <div class="chart-box"><canvas id="attendanceDept"></canvas></div>
+      </article>
+
+      <article class="panel">
+        <h3>Top Course Failure Rates</h3>
+        <div class="chart-box"><canvas id="courseFail"></canvas></div>
+      </article>
+
+      <article class="panel wide">
+        <h3>Budget Utilization</h3>
+        <div class="table-wrap"><table id="budgetTable"></table></div>
+      </article>
+
+      <article class="panel wide">
+        <h3>Main Analytical Findings</h3>
+        <div class="findings" id="findings"></div>
+      </article>
+
+      <article class="panel wide">
+        <h3>Published Evidence</h3>
+        <div class="evidence">
+          <img src="assets/screenshots/published_dashboard.png" alt="Published analytics dashboard screenshot">
+          <img src="assets/screenshots/demo_page.png" alt="Demo video page screenshot">
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    All data is fictional and generated for academic demonstration. No real student information is included.
+  </footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
