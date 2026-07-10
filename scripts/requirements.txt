@@ -1,0 +1,6 @@
+pandas
+openpyxl
+numpy
+python-docx
+Pillow
+reportlab

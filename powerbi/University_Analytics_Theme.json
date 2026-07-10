@@ -1,0 +1,24 @@
+{
+  "name": "University Analytics Theme",
+  "dataColors": [
+    "#1F5A7A",
+    "#6A8D3C",
+    "#C07A2D",
+    "#7A4E8A",
+    "#2B7A78",
+    "#B23A48",
+    "#3D405B",
+    "#5C6B73"
+  ],
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [
+          {
+            "fontFamily": "Segoe UI"
+          }
+        ]
+      }
+    }
+  }
+}

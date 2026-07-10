@@ -1,0 +1,71 @@
+CourseID,CourseTitle,DepartmentID,CreditHours,CourseType,StudyLevel,CourseCategory
+C001,Law Course 1,D008,2,Lab,Graduate, theory 
+C002,Computer Science Course 2,D001,3,Elective,Graduate,Seminar
+C003,Law Course 3,D008,4,Core,Graduate,Laboratory
+C004,English Course 4,D005,4,Elective,Undergraduate,Seminar
+C005,English Course 5,D005,2,Elective,Graduate,Theory
+C006,Civil Engineering Course 6,D006,2,Core,Undergraduate,Seminar
+C007,Law Course 7,D008,3,Lab,Graduate,Seminar
+C008,Electrical Engineering Course 8,D003,4,Elective,Undergraduate,Laboratory
+C009,Public Health Course 9,D007,3,Lab,Undergraduate,Laboratory
+C010,English Course 10,D005,2,Elective,Undergraduate,Theory
+C011,Civil Engineering Course 11,D006,2,Core,Graduate,Laboratory
+C012,Business Administration Course 12,D002,4,Core,Undergraduate,Laboratory
+C013,Public Health Course 13,D007,2,Lab,Undergraduate,Seminar
+C014,English Course 14,D005,2,Lab,Undergraduate,Seminar
+C015,Economics Course 15,D004,4,Lab,Undergraduate,Project
+C016,Computer Science Course 16,D001,3,Core,Graduate,Theory
+C017,Computer Science Course 17,D001,2,Core,Undergraduate,Theory
+C018,Media Studies Course 18,D010,2,Core,Undergraduate,Theory
+C019,Law Course 19,D008,4,Core,Graduate,Laboratory
+C020,Public Health Course 20,D007,2,Core,Graduate,Theory
+C021,Public Health Course 21,D007,2,Core,Undergraduate,Laboratory
+C022,Business Administration Course 22,D002,2,Lab,Graduate,Project
+C023,English Course 23,D005,3,Core,Graduate,Seminar
+C024,Business Administration Course 24,D002,4,Elective,Undergraduate,Seminar
+C025,English Course 25,D005,4,Core,Undergraduate,Theory
+C026,Civil Engineering Course 26,D006,2,Lab,Undergraduate,Project
+C027,Economics Course 27,D004,2,Core,Undergraduate,Seminar
+C028,Civil Engineering Course 28,D006,4,Lab,Graduate,Theory
+C029,Law Course 29,D008,2,Core,Undergraduate,Laboratory
+C030,Economics Course 30,D004,4,Core,Graduate,Project
+C031,Electrical Engineering Course 31,D003,4,Elective,Undergraduate,Laboratory
+C032,English Course 32,D005,2,Elective,Undergraduate,Laboratory
+C033,English Course 33,D005,2,Lab,Graduate,Laboratory
+C034,Civil Engineering Course 34,D006,4,Core,Undergraduate,Theory
+C035,Media Studies Course 35,D010,2,Elective,Undergraduate,Laboratory
+C036,Economics Course 36,D004,2,Elective,Undergraduate,Theory
+C037,English Course 37,D005,3,Core,Undergraduate,Theory
+C038,Electrical Engineering Course 38,D003,3,Elective,Graduate,Project
+C039,Computer Science Course 39,D001,2,Lab,Graduate,Laboratory
+C040,Mathematics Course 40,D009,4,Lab,Graduate,Seminar
+C041,English Course 41,D005,4,Elective,Undergraduate,Theory
+C042,Economics Course 42,D004,4,Core,Graduate,Seminar
+C043,Business Administration Course 43,D002,4,Core,Graduate,Laboratory
+C044,Public Health Course 44,D007,2,Lab,Undergraduate,Laboratory
+C045,Public Health Course 45,D007,3,Core,Graduate,Theory
+C046,Public Health Course 46,D007,3,Core,Graduate,Seminar
+C047,Public Health Course 47,D007,4,Lab,Graduate,Laboratory
+C048,Economics Course 48,D004,4,Lab,Undergraduate,Laboratory
+C049,Economics Course 49,D004,3,Core,Graduate,Project
+C050,English Course 50,D005,2,Elective,Graduate,Seminar
+C051,Economics Course 51,D004,4,Core,Graduate,Seminar
+C052,Computer Science Course 52,D001,2,Core,Undergraduate,Project
+C053,Electrical Engineering Course 53,D003,3,Core,Graduate,Seminar
+C054,Business Administration Course 54,D002,2,Core,Undergraduate,Theory
+C055,Media Studies Course 55,D010,4,Lab,Undergraduate,Laboratory
+C056,Economics Course 56,D004,2,Core,Graduate,Laboratory
+C057,Law Course 57,D008,4,Lab,Graduate,Theory
+C058,Law Course 58,D008,3,Elective,Undergraduate,Seminar
+C059,Electrical Engineering Course 59,D003,4,Elective,Undergraduate,Seminar
+C060,Civil Engineering Course 60,D006,2,Lab,Graduate,Project
+C061,Business Administration Course 61,D002,4,Lab,Graduate,Laboratory
+C062,Media Studies Course 62,D010,4,Core,Undergraduate,Project
+C063,Computer Science Course 63,D001,2,Elective,Graduate,Laboratory
+C064,Mathematics Course 64,D009,4,Core,Graduate,Theory
+C065,Electrical Engineering Course 65,D003,3,Lab,Graduate,Laboratory
+C066,Business Administration Course 66,D002,3,Lab,Graduate,Theory
+C067,English Course 67,D005,4,Core,Graduate,Theory
+C068,Mathematics Course 68,D009,4,Lab,Undergraduate,Laboratory
+C069,Mathematics Course 69,D009,2,Core,Graduate,Theory
+C070,Civil Engineering Course 70,D006,2,Elective,Graduate,Laboratory

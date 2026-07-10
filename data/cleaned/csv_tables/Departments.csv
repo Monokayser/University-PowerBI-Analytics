@@ -1,0 +1,11 @@
+DepartmentID,DepartmentName,FacultyName,Building,DepartmentHead,EstablishedYear
+D001,Computer Science,Science and Engineering,A,Dr. Nadia Rahman,1998
+D002,Business Administration,Business,B,Dr. Kamal Hossain,1995
+D003,Electrical Engineering,Science and Engineering,C,Dr. Farhana Islam,2002
+D004,Economics,Social Sciences,D,Dr. Arif Chowdhury,1992
+D005,English,Arts and Humanities,E,Dr. Selina Akter,1988
+D006,Civil Engineering,Science and Engineering,F,Dr. Mahmud Hasan,2005
+D007,Public Health,Health Sciences,G,Dr. Nusrat Jahan,2010
+D008,Law,Law,H,Dr. Tanvir Ahmed,1990
+D009,Mathematics,Science and Engineering,A,Dr. Reza Karim,1985
+D010,Media Studies,Arts and Humanities,E,Dr. Samira Sultana,2016

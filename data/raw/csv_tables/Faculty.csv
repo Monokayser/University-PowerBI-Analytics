@@ -1,0 +1,51 @@
+FacultyID,FacultyName,DepartmentID,Designation,EmploymentType,JoiningDate,Specialization
+F001,Faculty Tanvir Chowdhury,D007,Assistant Professor,Adjunct,2013-12-06,Statistics
+F002,Faculty Rafi Ahmed,D001,Lecturer,Full-Time,2025-05-05,Power Systems
+F003,Faculty Tanvir Haque,D002,Lecturer,Adjunct,2025-12-18,Law
+F004,Faculty Sadia Rahman,D001,Professor,Full-Time,2013-10-05,Finance
+F005,Faculty Sadia Chowdhury,D005,Assistant Professor,Adjunct,2016-02-17,Finance
+F006,Faculty Jarin Mitra,D002,Assistant Professor,Full-Time,2012-02-26,Epidemiology
+F007,Faculty Imran Akter,D002,Assistant Professor,Full-Time,2015-03-14,Media
+F008,Faculty Jarin Hossain,D006,Professor,Adjunct,2014-02-09,Epidemiology
+F009,Faculty Sumaiya Akter,D010,Professor,Adjunct,2008-11-22,Epidemiology
+F010,Faculty Ayan Hossain,D003,Associate Professor,Full-Time,2019-02-09,Literature
+F011,Faculty Nabila Akter,D001,Professor,Adjunct,2011-11-27,Data Analytics
+F012,Faculty Nabila Hossain,D003,Assistant Professor,Full-Time,2010-11-11,Statistics
+F013,Faculty Fahim Akter,D005,Assistant Professor,Adjunct,2023-09-12,Literature
+F014,Faculty Tanvir Hossain,D001,Associate Professor,Full-Time,2010-09-24,Epidemiology
+F015,Faculty Fahim Islam,D005,Associate Professor,Adjunct,2012-12-18,Power Systems
+F016,Faculty Hasan Mitra,D010,Assistant Professor,Adjunct,2022-08-17,Data Analytics
+F017,Faculty Sadia Ahmed,D006,Associate Professor,Full-Time,2025-12-08,Law
+F018,Faculty Imran Akter,D003,Associate Professor,Full-Time,2010-07-07,Structures
+F019,Faculty Ayan Ahmed,D002,Professor,Full-Time,2008-05-27,Structures
+F020,Faculty Hasan Akter,D007,Lecturer,Full-Time,2015-08-27,Statistics
+F021,Faculty Nabila Hossain,D001,Associate Professor,Full-Time,2023-09-16,Public Policy
+F022,Faculty Ayan Rahman,D008,Professor,Adjunct,2009-01-18,Literature
+F023,Faculty Tanvir Akter,D007,Assistant Professor,Full-Time,2014-11-14,Media
+F024,Faculty Imran Ahmed,D003,Lecturer,Full-Time,2011-11-19,Media
+F025,Faculty Ayan Rahman,D008,Lecturer,Full-Time,2008-09-17,Data Analytics
+F026,Faculty Fahim Sarker,D005,Professor,Adjunct,2017-05-20,Media
+F027,Faculty Fahim Haque,D009,Professor,Adjunct,2010-08-23,Structures
+F028,Faculty Ayan Rahman,D009,Lecturer,Full-Time,2013-01-16,Media
+F029,Faculty Fahim Akter,D003,Associate Professor,Adjunct,2018-09-26,Literature
+F030,Faculty Maliha Sarker,D003,Associate Professor,Adjunct,2009-10-20,Epidemiology
+F031,Faculty Sadia Sarker,D005,Associate Professor,Full-Time,2009-02-08,Data Analytics
+F032,Faculty Hasan Islam,D010,Professor,Adjunct,2011-10-04,Power Systems
+F033,Faculty Tanvir Karim,D002,Lecturer,Adjunct,2016-06-21,Media
+F034,Faculty Tasnim Ahmed,D004,Associate Professor,Adjunct,2012-06-01,Literature
+F035,Faculty Tanvir Sarker,D007,Professor,Adjunct,2019-06-25,Literature
+F036,Faculty Fahim Sarker,D002,Associate Professor,Full-Time,2009-04-05,Data Analytics
+F037,Faculty Tanvir Islam,D004,Assistant Professor,Full-Time,2014-07-22,Media
+F038,Faculty Ayan Islam,D004,Assistant Professor,Full-Time,2008-12-04,Statistics
+F039,Faculty Sumaiya Haque,D009,Assistant Professor,Adjunct,2009-08-06,Finance
+F040,Faculty Tanvir Haque,D002,Associate Professor,Full-Time,2024-12-15,Law
+F041,Faculty Nabila Ahmed,D005,Assistant Professor,Adjunct,2012-12-06,Public Policy
+F042,Faculty Hasan Haque,D005,Lecturer,Adjunct,2021-03-01,Law
+F043,Faculty Rafi Chowdhury,D007,Associate Professor,Full-Time,2015-10-27,Data Analytics
+F044,Faculty Tanvir Rahman,D006,Professor,Adjunct,2012-11-22,Law
+F045,Faculty Nabila Akter,D007,Associate Professor,Adjunct,2020-11-22,Media
+F046,Faculty Tanvir Akter,D003,Professor,Full-Time,2009-06-16,Statistics
+F047,Faculty Rafi Ahmed,D002,Assistant Professor,Adjunct,2017-01-12,Literature
+F048,Faculty Sadia Karim,D003,Assistant Professor,Full-Time,2013-01-27,Power Systems
+F049,Faculty Sumaiya Akter,D002,Lecturer,Full-Time,2008-07-19,Finance
+F050,Faculty Sumaiya Haque,D009,Lecturer,Adjunct,2022-12-19,Literature
