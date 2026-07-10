@@ -28,6 +28,9 @@ Cross-check date: 2026-07-10
 | Web landing page source | Complete | `web/index.html` |
 | GitHub repository | Complete | `https://github.com/Monokayser/University-PowerBI-Analytics` |
 | GitHub release | Complete | `https://github.com/Monokayser/University-PowerBI-Analytics/releases/tag/v1.0.0` |
+| Public static analytics viewer | Complete locally / pending Pages verification | `docs/index.html` |
+| Demo video | Complete | `docs/downloads/University_Analytics_Demo.mp4` |
+| Public report/presentation downloads | Complete | `docs/downloads/` |
 
 ## Environment-Limited Items
 
@@ -38,7 +41,7 @@ Cross-check date: 2026-07-10
 | Power BI Service publication | Not completed | Requires Power BI Desktop and a licensed/authorized Power BI account |
 | Power BI App URL | Not completed | Requires Power BI workspace/app permissions |
 | Public Power BI embed URL | Not completed | Requires tenant permission and tested Publish to Web |
-| GitHub Pages activation | Not completed | Source page exists, but Pages settings were not changed from this environment |
+| GitHub Pages activation | Pending verification | Source exists in `docs/`; Pages must be enabled or confirmed through repository settings/API |
 
 ## Verification Commands
 

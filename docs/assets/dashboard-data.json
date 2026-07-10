@@ -1,0 +1,527 @@
+{
+  "kpis": {
+    "totalStudents": 1000,
+    "activeStudents": 765,
+    "departments": 10,
+    "courses": 70,
+    "faculty": 50,
+    "enrollments": 12500,
+    "avgMark": 68.13,
+    "avgGpa": 3.17,
+    "passRate": 96.96,
+    "avgAttendance": 81.76,
+    "outstanding": 125733250.0,
+    "collectionRate": 65.07,
+    "scholarshipRate": 100.0
+  },
+  "charts": {
+    "enrollmentBySemester": [
+      {
+        "label": "Spring 2023",
+        "value": 1143
+      },
+      {
+        "label": "Summer 2023",
+        "value": 1226
+      },
+      {
+        "label": "Fall 2023",
+        "value": 1109
+      },
+      {
+        "label": "Spring 2024",
+        "value": 1116
+      },
+      {
+        "label": "Summer 2024",
+        "value": 1117
+      },
+      {
+        "label": "Fall 2024",
+        "value": 1145
+      },
+      {
+        "label": "Spring 2025",
+        "value": 1118
+      },
+      {
+        "label": "Summer 2025",
+        "value": 1141
+      },
+      {
+        "label": "Fall 2025",
+        "value": 1133
+      },
+      {
+        "label": "Spring 2026",
+        "value": 1103
+      },
+      {
+        "label": "Summer 2026",
+        "value": 1149
+      }
+    ],
+    "studentsByDepartment": [
+      {
+        "label": "English",
+        "value": 115
+      },
+      {
+        "label": "Civil Engineering",
+        "value": 106
+      },
+      {
+        "label": "Electrical Engineering",
+        "value": 105
+      },
+      {
+        "label": "Computer Science",
+        "value": 103
+      },
+      {
+        "label": "Business Administration",
+        "value": 98
+      },
+      {
+        "label": "Economics",
+        "value": 98
+      },
+      {
+        "label": "Law",
+        "value": 98
+      },
+      {
+        "label": "Mathematics",
+        "value": 96
+      },
+      {
+        "label": "Public Health",
+        "value": 94
+      },
+      {
+        "label": "Media Studies",
+        "value": 87
+      }
+    ],
+    "averageMarkByDepartment": [
+      {
+        "label": "English",
+        "value": 68.81
+      },
+      {
+        "label": "Business Administration",
+        "value": 68.62
+      },
+      {
+        "label": "Electrical Engineering",
+        "value": 68.46
+      },
+      {
+        "label": "Computer Science",
+        "value": 68.39
+      },
+      {
+        "label": "Mathematics",
+        "value": 68.08
+      },
+      {
+        "label": "Public Health",
+        "value": 68.0
+      },
+      {
+        "label": "Media Studies",
+        "value": 67.81
+      },
+      {
+        "label": "Law",
+        "value": 67.77
+      },
+      {
+        "label": "Economics",
+        "value": 67.72
+      },
+      {
+        "label": "Civil Engineering",
+        "value": 67.49
+      }
+    ],
+    "passRateByDepartment": [
+      {
+        "label": "Business Administration",
+        "value": 97.66
+      },
+      {
+        "label": "Public Health",
+        "value": 97.46
+      },
+      {
+        "label": "Electrical Engineering",
+        "value": 97.44
+      },
+      {
+        "label": "Law",
+        "value": 97.35
+      },
+      {
+        "label": "Economics",
+        "value": 96.97
+      },
+      {
+        "label": "Civil Engineering",
+        "value": 96.86
+      },
+      {
+        "label": "Mathematics",
+        "value": 96.78
+      },
+      {
+        "label": "English",
+        "value": 96.6
+      },
+      {
+        "label": "Media Studies",
+        "value": 96.52
+      },
+      {
+        "label": "Computer Science",
+        "value": 95.96
+      }
+    ],
+    "paymentStatus": [
+      {
+        "label": "Partial",
+        "value": 2435
+      },
+      {
+        "label": "Paid",
+        "value": 2392
+      },
+      {
+        "label": "Unpaid",
+        "value": 1167
+      }
+    ],
+    "outstandingByDepartment": [
+      {
+        "label": "English",
+        "value": 14872250
+      },
+      {
+        "label": "Computer Science",
+        "value": 13526250
+      },
+      {
+        "label": "Electrical Engineering",
+        "value": 13285250
+      },
+      {
+        "label": "Civil Engineering",
+        "value": 12940000
+      },
+      {
+        "label": "Mathematics",
+        "value": 12614000
+      },
+      {
+        "label": "Business Administration",
+        "value": 12281500
+      },
+      {
+        "label": "Economics",
+        "value": 12099500
+      },
+      {
+        "label": "Law",
+        "value": 12040000
+      },
+      {
+        "label": "Public Health",
+        "value": 12028250
+      },
+      {
+        "label": "Media Studies",
+        "value": 10046250
+      }
+    ],
+    "gradeDistribution": [
+      {
+        "label": "A+",
+        "value": 2732
+      },
+      {
+        "label": "A",
+        "value": 1421
+      },
+      {
+        "label": "A-",
+        "value": 1518
+      },
+      {
+        "label": "B+",
+        "value": 1676
+      },
+      {
+        "label": "B",
+        "value": 1554
+      },
+      {
+        "label": "B-",
+        "value": 1232
+      },
+      {
+        "label": "C+",
+        "value": 952
+      },
+      {
+        "label": "C",
+        "value": 620
+      },
+      {
+        "label": "D",
+        "value": 415
+      },
+      {
+        "label": "F",
+        "value": 380
+      }
+    ],
+    "attendanceByDepartment": [
+      {
+        "label": "Electrical Engineering",
+        "value": 82.11
+      },
+      {
+        "label": "Computer Science",
+        "value": 82.04
+      },
+      {
+        "label": "Media Studies",
+        "value": 82.01
+      },
+      {
+        "label": "Business Administration",
+        "value": 81.91
+      },
+      {
+        "label": "Economics",
+        "value": 81.77
+      },
+      {
+        "label": "Civil Engineering",
+        "value": 81.7
+      },
+      {
+        "label": "Mathematics",
+        "value": 81.68
+      },
+      {
+        "label": "English",
+        "value": 81.55
+      },
+      {
+        "label": "Public Health",
+        "value": 81.55
+      },
+      {
+        "label": "Law",
+        "value": 81.32
+      }
+    ],
+    "budgetUtilization": [
+      {
+        "DepartmentName": "Business Administration",
+        "AllocatedBudget": 29400000.0,
+        "UsedBudget": 26355610.0,
+        "RemainingBudget": 3044390.0,
+        "UtilizationRate": 89.64
+      },
+      {
+        "DepartmentName": "Public Health",
+        "AllocatedBudget": 25000000.0,
+        "UsedBudget": 20973479.0,
+        "RemainingBudget": 4026521.0,
+        "UtilizationRate": 83.89
+      },
+      {
+        "DepartmentName": "English",
+        "AllocatedBudget": 29100000.0,
+        "UsedBudget": 24307552.0,
+        "RemainingBudget": 4792448.0,
+        "UtilizationRate": 83.53
+      },
+      {
+        "DepartmentName": "Economics",
+        "AllocatedBudget": 22800000.0,
+        "UsedBudget": 18675206.0,
+        "RemainingBudget": 4124794.0,
+        "UtilizationRate": 81.91
+      },
+      {
+        "DepartmentName": "Civil Engineering",
+        "AllocatedBudget": 20500000.0,
+        "UsedBudget": 16412739.0,
+        "RemainingBudget": 4087261.0,
+        "UtilizationRate": 80.06
+      },
+      {
+        "DepartmentName": "Mathematics",
+        "AllocatedBudget": 26100000.0,
+        "UsedBudget": 20191531.0,
+        "RemainingBudget": 5908469.0,
+        "UtilizationRate": 77.36
+      },
+      {
+        "DepartmentName": "Law",
+        "AllocatedBudget": 18900000.0,
+        "UsedBudget": 14571404.0,
+        "RemainingBudget": 4328596.0,
+        "UtilizationRate": 77.1
+      },
+      {
+        "DepartmentName": "Computer Science",
+        "AllocatedBudget": 24000000.0,
+        "UsedBudget": 18175911.0,
+        "RemainingBudget": 5824089.0,
+        "UtilizationRate": 75.73
+      },
+      {
+        "DepartmentName": "Media Studies",
+        "AllocatedBudget": 30500000.0,
+        "UsedBudget": 21601584.0,
+        "RemainingBudget": 8898416.0,
+        "UtilizationRate": 70.82
+      },
+      {
+        "DepartmentName": "Electrical Engineering",
+        "AllocatedBudget": 19100000.0,
+        "UsedBudget": 13323330.0,
+        "RemainingBudget": 5776670.0,
+        "UtilizationRate": 69.76
+      }
+    ],
+    "courseFailureRate": [
+      {
+        "label": "Media Studies Course 18",
+        "value": 5.5
+      },
+      {
+        "label": "Computer Science Course 52",
+        "value": 5.45
+      },
+      {
+        "label": "Mathematics Course 40",
+        "value": 5.24
+      },
+      {
+        "label": "Economics Course 51",
+        "value": 5.23
+      },
+      {
+        "label": "Economics Course 42",
+        "value": 4.85
+      },
+      {
+        "label": "Civil Engineering Course 11",
+        "value": 4.71
+      },
+      {
+        "label": "Law Course 19",
+        "value": 4.57
+      },
+      {
+        "label": "Computer Science Course 16",
+        "value": 4.55
+      },
+      {
+        "label": "English Course 14",
+        "value": 4.42
+      },
+      {
+        "label": "English Course 10",
+        "value": 4.35
+      }
+    ]
+  },
+  "findings": [
+    {
+      "Finding": "Highest enrollment department",
+      "Observation": "English has the largest student count.",
+      "Interpretation": "Management should verify staffing capacity.",
+      "Possible Explanation": "Demand may reflect reputation and market fit.",
+      "Recommended Action": "Review section sizes and faculty allocation.",
+      "Limitation": "Synthetic dataset only."
+    },
+    {
+      "Finding": "Highest failure course",
+      "Observation": "C018 has the highest failure rate.",
+      "Interpretation": "Course may need academic support review.",
+      "Possible Explanation": "Content difficulty, prerequisites, or assessment design may contribute.",
+      "Recommended Action": "Add tutoring and review course design.",
+      "Limitation": "Association only, not causation."
+    },
+    {
+      "Finding": "Attendance relationship",
+      "Observation": "Lower attendance bands show lower average final marks.",
+      "Interpretation": "Attendance is a practical early-warning signal.",
+      "Possible Explanation": "Missed classes reduce exposure to learning activities.",
+      "Recommended Action": "Trigger advising below 75% attendance.",
+      "Limitation": "Cannot prove attendance causes marks."
+    },
+    {
+      "Finding": "Outstanding payments",
+      "Observation": "Outstanding balance totals 125,733,250.",
+      "Interpretation": "Collections and student support need monitoring.",
+      "Possible Explanation": "Partial and unpaid records concentrate financial risk.",
+      "Recommended Action": "Segment outreach by payment risk level.",
+      "Limitation": "Synthetic tuition assumptions."
+    },
+    {
+      "Finding": "Budget utilization",
+      "Observation": "D007 has the highest utilization in 2023.",
+      "Interpretation": "Budget pressure may affect delivery quality.",
+      "Possible Explanation": "Lab/research/event needs can vary by department.",
+      "Recommended Action": "Review mid-year budget reallocations.",
+      "Limitation": "Budget is generated, not actual finance data."
+    },
+    {
+      "Finding": "Scholarship distribution",
+      "Observation": "100.0% of students receive a scholarship.",
+      "Interpretation": "Scholarship policy can be analyzed against performance and retention.",
+      "Possible Explanation": "Merit and need-based categories serve different goals.",
+      "Recommended Action": "Track outcomes by scholarship type.",
+      "Limitation": "No real socioeconomic data."
+    },
+    {
+      "Finding": "Faculty workload",
+      "Observation": "Enrollment links faculty to taught courses for workload analysis.",
+      "Interpretation": "High load can affect feedback and service quality.",
+      "Possible Explanation": "Popular departments need balanced staffing.",
+      "Recommended Action": "Monitor distinct courses and enrollments per faculty.",
+      "Limitation": "Workload excludes non-teaching duties."
+    },
+    {
+      "Finding": "Graduation eligibility",
+      "Observation": "Credit and GPA measures identify students approaching eligibility.",
+      "Interpretation": "Advising can prioritize final-year students.",
+      "Possible Explanation": "Missing credits or low GPA delay completion.",
+      "Recommended Action": "Add drill-through student review page.",
+      "Limitation": "Eligibility rule is simplified."
+    },
+    {
+      "Finding": "Payment status",
+      "Observation": "Paid, partial, and unpaid categories provide finance risk visibility.",
+      "Interpretation": "Finance and advising teams can coordinate interventions.",
+      "Possible Explanation": "Payment delays may align with income categories.",
+      "Recommended Action": "Use respectful outreach workflows.",
+      "Limitation": "Synthetic data includes fictional profiles."
+    },
+    {
+      "Finding": "Semester trend",
+      "Observation": "Semester fields support enrollment and performance trend pages.",
+      "Interpretation": "Trend changes help detect demand shifts.",
+      "Possible Explanation": "Admissions cycles and course offerings influence patterns.",
+      "Recommended Action": "Monitor semester-over-semester growth.",
+      "Limitation": "Trend is generated from random distributions."
+    }
+  ]
+}

@@ -4,6 +4,13 @@
 
 Synthetic university analytics project for the assignment **Data Analysis and Reporting Using Power BI**.
 
+## Published Analytics
+
+- Public analytics viewer: [GitHub Pages dashboard](https://monokayser.github.io/University-PowerBI-Analytics/)
+- Demo video: [University_Analytics_Demo.mp4](https://github.com/Monokayser/University-PowerBI-Analytics/raw/main/docs/downloads/University_Analytics_Demo.mp4)
+- Release package: [v1.0.0](https://github.com/Monokayser/University-PowerBI-Analytics/releases/tag/v1.0.0)
+- Published access notes: `PUBLISHED_ANALYTICS.md`
+
 ## Dataset Size
 
 - Students: 1,000
@@ -38,6 +45,8 @@ Power BI Desktop was not available in the build environment, so no `.pbix`, dash
 - Prompt compliance cross-check: `documentation/Prompt_Compliance_Cross_Check.md`
 - Report: `report/PowerBI_Project_Report.docx` and `report/PowerBI_Project_Report.pdf`
 - Presentation: `presentation/PowerBI_Project_Presentation.pptx`
+- Published site source: `docs/index.html`
+- Demo video: `docs/downloads/University_Analytics_Demo.mp4`
 
 ## Run
 

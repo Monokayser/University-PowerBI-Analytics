@@ -16,6 +16,9 @@
 - [x] Web landing page generated
 - [x] Dedicated GitHub repository created
 - [x] GitHub release created
+- [x] Static published analytics viewer generated in `docs/`
+- [x] Demo video generated and included in `docs/downloads/`
+- [x] Public download copies of report, presentation, cleaned workbook, and ZIP added
 - [ ] Power BI Desktop `.pbix` authoring (blocked: Power BI Desktop unavailable)
 - [ ] Power BI Service publication (blocked: Power BI Desktop/licensing/session required)
-- [ ] GitHub Pages publication (source exists; Pages setting not changed)
+- [ ] GitHub Pages publication verified live
