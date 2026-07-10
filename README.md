@@ -31,7 +31,11 @@ Power BI Desktop was not available in the build environment, so no `.pbix`, dash
 - Validation report: `data/validation/Data_Validation_Results.xlsx`
 - Data dictionary: `documentation/University_Data_Dictionary.xlsx`
 - DAX library: `powerbi/DAX_Measures.md`
+- Date table DAX: `powerbi/Date_Table_DAX.md`
+- DAX calculated columns: `powerbi/DAX_Calculated_Columns.md`
 - Power Query library: `powerbi/Power_Query_M_Code.md`
+- Dashboard page specifications: `documentation/Dashboard_Page_Specifications.md`
+- Prompt compliance cross-check: `documentation/Prompt_Compliance_Cross_Check.md`
 - Report: `report/PowerBI_Project_Report.docx` and `report/PowerBI_Project_Report.pdf`
 - Presentation: `presentation/PowerBI_Project_Presentation.pptx`
 

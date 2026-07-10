@@ -7,9 +7,15 @@
 - [x] Relationship documentation generated
 - [x] DAX measure library generated
 - [x] Power Query documentation generated
+- [x] Date table DAX documented
+- [x] DAX calculated columns documented
+- [x] Dashboard page specifications documented
+- [x] Prompt compliance cross-check generated
 - [x] Report generated
 - [x] Presentation generated
 - [x] Web landing page generated
-- [ ] Power BI Desktop `.pbix` authoring
-- [ ] Power BI Service publication
-- [ ] GitHub repository/release/pages publication
+- [x] Dedicated GitHub repository created
+- [x] GitHub release created
+- [ ] Power BI Desktop `.pbix` authoring (blocked: Power BI Desktop unavailable)
+- [ ] Power BI Service publication (blocked: Power BI Desktop/licensing/session required)
+- [ ] GitHub Pages publication (source exists; Pages setting not changed)
