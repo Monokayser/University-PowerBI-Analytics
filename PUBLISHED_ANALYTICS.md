@@ -10,7 +10,7 @@ GitHub repository:
 
 Release:
 
-`https://github.com/Monokayser/University-PowerBI-Analytics/releases/tag/v1.0.0`
+`https://github.com/Monokayser/University-PowerBI-Analytics/releases/tag/v1.1.0`
 
 ## Published Files
 

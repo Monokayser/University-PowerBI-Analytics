@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.1.0
+
+- Added published GitHub Pages analytics viewer.
+- Added demo video and public download files.
+- Added published analytics addendum and updated public access documentation.
+
 ## v1.0.0
 
 - Generated synthetic university analytics dataset.

@@ -27,7 +27,7 @@ Cross-check date: 2026-07-10
 | Presentation | Complete | `presentation/PowerBI_Project_Presentation.pptx` |
 | Web landing page source | Complete | `web/index.html` |
 | GitHub repository | Complete | `https://github.com/Monokayser/University-PowerBI-Analytics` |
-| GitHub release | Complete | `https://github.com/Monokayser/University-PowerBI-Analytics/releases/tag/v1.0.0` |
+| GitHub release | Complete | `https://github.com/Monokayser/University-PowerBI-Analytics/releases/tag/v1.1.0` |
 | Public static analytics viewer | Complete locally / pending Pages verification | `docs/index.html` |
 | Demo video | Complete | `docs/downloads/University_Analytics_Demo.mp4` |
 | Public report/presentation downloads | Complete | `docs/downloads/` |

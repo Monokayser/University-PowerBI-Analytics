@@ -8,7 +8,7 @@ Synthetic university analytics project for the assignment **Data Analysis and Re
 
 - Public analytics viewer: [GitHub Pages dashboard](https://monokayser.github.io/University-PowerBI-Analytics/)
 - Demo video: [University_Analytics_Demo.mp4](https://github.com/Monokayser/University-PowerBI-Analytics/raw/main/docs/downloads/University_Analytics_Demo.mp4)
-- Release package: [v1.0.0](https://github.com/Monokayser/University-PowerBI-Analytics/releases/tag/v1.0.0)
+- Release package: [v1.1.0](https://github.com/Monokayser/University-PowerBI-Analytics/releases/tag/v1.1.0)
 - Published access notes: `PUBLISHED_ANALYTICS.md`
 
 ## Dataset Size
