@@ -1,16 +1,29 @@
-# University Academic Analytics - Power BI Assignment
+# University Academic Analytics - Power BI Project
 
-![Python](https://img.shields.io/badge/Python-3.14-blue) ![Power%20BI](https://img.shields.io/badge/Power%20BI-Desktop%20required-yellow) ![Status](https://img.shields.io/badge/Project-PowerBI--ready-green)
+![Python](https://img.shields.io/badge/Python-3.14-blue) ![Power%20BI](https://img.shields.io/badge/Power%20BI-ready-yellow) ![Status](https://img.shields.io/badge/Release-v1.1.0-green)
 
-Synthetic university analytics project for the assignment **Data Analysis and Reporting Using Power BI**.
+Synthetic university analytics project for the **Data Visualization** course. The project provides a Power BI-ready data model, cleaned Excel dataset, DAX and Power Query documentation, academic report, presentation, public analytics viewer, screenshots, and demo video.
 
-## Published Analytics
+## Student and Course Information
 
-- Public analytics viewer: [GitHub Pages dashboard](https://monokayser.github.io/University-PowerBI-Analytics/)
-- Demo video: [University_Analytics_Demo.mp4](https://github.com/Monokayser/University-PowerBI-Analytics/raw/main/docs/downloads/University_Analytics_Demo.mp4)
+| Field | Information |
+|---|---|
+| Student Name | S. M. Monowar Kayser |
+| Student ID | 253-25-019 |
+| Course Title | Data Visualization |
+| Course Instructor | Sadat Hasan |
+| Instructor Designation | Adjunct Faculty |
+| Department | Department of Computer Science and Engineering |
+| University | Daffodil International University |
+
+## Published Links
+
+- Live analytics viewer: [GitHub Pages dashboard](https://monokayser.github.io/University-PowerBI-Analytics/)
+- Demo video page: [Published demo](https://monokayser.github.io/University-PowerBI-Analytics/demo.html)
+- Repository: [University-PowerBI-Analytics](https://github.com/Monokayser/University-PowerBI-Analytics)
 - Release package: [v1.1.0](https://github.com/Monokayser/University-PowerBI-Analytics/releases/tag/v1.1.0)
-- Published access notes: `PUBLISHED_ANALYTICS.md`
-
+- Report PDF: [PowerBI_Project_Report.pdf](https://monokayser.github.io/University-PowerBI-Analytics/downloads/PowerBI_Project_Report.pdf)
+- Demo MP4: [University_Analytics_Demo.mp4](https://monokayser.github.io/University-PowerBI-Analytics/downloads/University_Analytics_Demo.mp4)
 
 ## Screenshots
 
@@ -18,65 +31,103 @@ Synthetic university analytics project for the assignment **Data Analysis and Re
 
 ![Demo video page](screenshots/published_analytics/demo_page.png)
 
-## Dataset Size
+## Project Objectives
 
-- Students: 1,000
-- Departments: 10
-- Courses: 70
-- Faculty: 50
-- Enrollment records: 12,500
-- Attendance records: 22,577
-- Payment records: 5,994
+- Build a realistic synthetic university dataset for academic analytics.
+- Clean, validate, and document the data for Power BI modeling.
+- Design a star-style analytical model with fact and dimension tables.
+- Provide DAX measures for enrollment, GPA, pass rate, attendance, fees, and budget analysis.
+- Publish a static analytics viewer so the project can be reviewed without Power BI Desktop.
+- Prepare academic documentation, screenshots, diagrams, testing evidence, and release assets.
 
-## Data Model
+## Dataset Summary
 
-![Data model](documentation/Data_Model_Diagram.png)
+| Table | Rows |
+|---|---:|
+| Students | 1,000 |
+| StudentProfile | 1,000 |
+| Departments | 10 |
+| Courses | 70 |
+| Faculty | 50 |
+| Semesters | 11 |
+| Enrollment | 12,500 |
+| Attendance | 22,577 |
+| Payments | 5,994 |
+| DepartmentBudget | 40 |
 
-Students and Courses are conceptually many-to-many and are resolved through `Enrollment`. `Students` to `StudentProfile` is one-to-one. Department, course, faculty, semester, payment, attendance, and budget relationships are documented in `documentation/Relationship_Documentation.md`.
+All records are fictional and generated for academic demonstration. No real student information is included.
+
+## Main Features
+
+- Dark/gold responsive analytics interface inspired by the supplied dashboard reference.
+- KPI cards for students, active students, enrollments, GPA, pass rate, attendance, outstanding fees, and collection rate.
+- Interactive Chart.js visualizations for semester enrollment, department distribution, academic marks, payment status, grade distribution, attendance, course failure rate, and outstanding fees.
+- Budget utilization table and written analytical findings.
+- Academic report with cover page, methodology, data cleaning, model design, DAX measures, visual interpretation, testing, findings, limitations, recommendations, references, and appendices.
+- Public downloads for the report, presentation, cleaned workbook, demo video, and release ZIP.
+
+## Project Structure
+
+```text
+data/
+  raw/                         Raw generated workbook
+  cleaned/                     Final cleaned workbook
+  validation/                  Validation results
+docs/                          GitHub Pages published site
+documentation/                 Data dictionary, model notes, build guides
+powerbi/                       DAX, calculated columns, Power Query notes
+presentation/                  Project presentation
+report/                        Final DOCX/PDF report and figures
+screenshots/                   Desktop, mobile, dashboard, and demo evidence
+scripts/                       Dataset, cleaning, validation, and analysis scripts
+```
+
+## Run Locally
+
+```bash
+pip install -r scripts/requirements.txt
+python scripts/generate_dataset.py
+python scripts/clean_dataset.py
+python scripts/validate_dataset.py
+python scripts/exploratory_analysis.py
+python -m http.server 8000 --directory docs
+```
+
+Then open `http://localhost:8000/`.
 
 ## Power BI Status
 
-Power BI Desktop was not available in the build environment, so no `.pbix`, dashboard screenshot, Power BI Service URL, app URL, or public embed URL is claimed. Use `documentation/Build_PowerBI_Report_Step_by_Step.md` to create the final report from the cleaned workbook.
+Power BI Desktop was not available in the build environment, so this repository does not claim a fabricated `.pbix`, Power BI Service URL, app URL, or public embed URL. The included cleaned workbook, relationship documentation, DAX library, Power Query notes, and page specifications are ready for manual Power BI Desktop authoring.
+
+## Testing and Validation
+
+- Dataset validation: passed using `python scripts/validate_dataset.py`.
+- Desktop UI: checked with a local Chrome capture at `1440x1200`.
+- Mobile UI: checked with a local Chrome capture at `390x1400`.
+- Published assets: report, presentation, workbook, screenshots, demo video, and ZIP are included under `docs/downloads/`.
+- Chart resilience: KPIs, tables, and findings still render if the external Chart.js CDN is delayed; chart panels show a clear fallback message.
+
+## Key Findings
+
+- English has the largest student count among departments.
+- Course `C018` has the highest failure rate and should be prioritized for academic support.
+- Lower attendance bands are associated with lower average final marks.
+- Outstanding fees total `$125,733,250`, requiring department-level follow-up.
+- Scholarship coverage is `32.0%`, after preserving the `None` scholarship category correctly.
+- Budget utilization differs by department and should be reviewed during mid-year planning.
 
 ## Important Files
 
-- Raw workbook: `data/raw/University_Academic_Analytics_Raw.xlsx`
 - Cleaned workbook: `data/cleaned/University_Academic_Analytics_Cleaned.xlsx`
 - Validation report: `data/validation/Data_Validation_Results.xlsx`
 - Data dictionary: `documentation/University_Data_Dictionary.xlsx`
-- DAX library: `powerbi/DAX_Measures.md`
-- Date table DAX: `powerbi/Date_Table_DAX.md`
-- DAX calculated columns: `powerbi/DAX_Calculated_Columns.md`
-- Power Query library: `powerbi/Power_Query_M_Code.md`
-- Dashboard page specifications: `documentation/Dashboard_Page_Specifications.md`
-- Prompt compliance cross-check: `documentation/Prompt_Compliance_Cross_Check.md`
+- DAX measures: `powerbi/DAX_Measures.md`
+- Power Query notes: `powerbi/Power_Query_M_Code.md`
 - Report: `report/PowerBI_Project_Report.docx` and `report/PowerBI_Project_Report.pdf`
 - Presentation: `presentation/PowerBI_Project_Presentation.pptx`
 - Published site source: `docs/index.html`
 - Demo video: `docs/downloads/University_Analytics_Demo.mp4`
 
-## Run
+## Security and Academic Integrity
 
-```bash
-python scripts/generate_dataset.py
-python scripts/clean_dataset.py
-python scripts/validate_dataset.py
-python scripts/exploratory_analysis.py
-```
-
-## Main Findings
-
-- **Highest enrollment department:** English has the largest student count. Recommendation: Review section sizes and faculty allocation.
-- **Highest failure course:** C018 has the highest failure rate. Recommendation: Add tutoring and review course design.
-- **Attendance relationship:** Lower attendance bands show lower average final marks. Recommendation: Trigger advising below 75% attendance.
-- **Outstanding payments:** Outstanding balance totals 125,733,250. Recommendation: Segment outreach by payment risk level.
-- **Budget utilization:** D007 has the highest utilization in 2023. Recommendation: Review mid-year budget reallocations.
-- **Scholarship distribution:** 32.0% of students receive a scholarship. Recommendation: Track outcomes by scholarship type.
-- **Faculty workload:** Enrollment links faculty to taught courses for workload analysis. Recommendation: Monitor distinct courses and enrollments per faculty.
-- **Graduation eligibility:** Credit and GPA measures identify students approaching eligibility. Recommendation: Add drill-through student review page.
-- **Payment status:** Paid, partial, and unpaid categories provide finance risk visibility. Recommendation: Use respectful outreach workflows.
-- **Semester trend:** Semester fields support enrollment and performance trend pages. Recommendation: Monitor semester-over-semester growth.
-
-## Security
-
-All data is fictional and synthetic. Do not commit credentials, cookies, tokens, `.env` files, Power BI session files, or authentication screenshots.
+The project uses synthetic data only. Do not commit credentials, cookies, tokens, `.env` files, Power BI session files, or authentication screenshots. External libraries and tools are acknowledged in the report and documentation.

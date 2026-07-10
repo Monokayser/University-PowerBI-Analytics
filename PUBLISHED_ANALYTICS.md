@@ -23,7 +23,7 @@ The `docs/` folder is prepared for GitHub Pages and contains:
 - `downloads/PowerBI_Project_Report.docx` - editable report download
 - `downloads/PowerBI_Project_Presentation.pptx` - presentation download
 - `downloads/University_Academic_Analytics_Cleaned.xlsx` - cleaned workbook download
-- `downloads/University_PowerBI_Analytics_v1.0.0.zip` - full project package
+- `downloads/University_PowerBI_Analytics_v1.1.0.zip` - full project package
 - `downloads/University_Analytics_Demo.mp4` - demo video
 - `assets/screenshots/published_dashboard.png` - real screenshot from the published analytics page
 - `assets/screenshots/demo_page.png` - real screenshot from the demo video page

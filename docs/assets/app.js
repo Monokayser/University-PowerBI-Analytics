@@ -1,10 +1,17 @@
-const palette = ["#1f5a7a", "#5d7f3a", "#b8792b", "#ad3f4a", "#2f7e7a", "#7a4e8a", "#3d405b", "#5c6b73"];
+const palette = ["#f2c766", "#66b7d8", "#91bf72", "#d96f6f", "#d8aa43", "#8a7ce0", "#5bb7aa", "#b9c2c5"];
 const money = (value) => new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 }).format(value);
 const num = (value) => new Intl.NumberFormat("en-US").format(value);
 const pct = (value) => `${Number(value).toFixed(1)}%`;
 
 const labels = (rows) => rows.map((row) => row.label);
 const values = (rows) => rows.map((row) => row.value);
+
+const chartsAvailable = typeof Chart !== "undefined";
+
+if (chartsAvailable) {
+  Chart.defaults.color = "#b9c6c7";
+  Chart.defaults.font.family = "Segoe UI, Arial, sans-serif";
+}
 
 function baseOptions(extra = {}) {
   return {
@@ -13,8 +20,14 @@ function baseOptions(extra = {}) {
     animation: false,
     resizeDelay: 100,
     plugins: {
-      legend: { display: false },
-      tooltip: { enabled: true }
+      legend: { display: false, labels: { boxWidth: 10, boxHeight: 10 } },
+      tooltip: {
+        enabled: true,
+        backgroundColor: "#0f191d",
+        borderColor: "#3b5157",
+        borderWidth: 1,
+        padding: 10
+      }
     },
     layout: { padding: { top: 6, right: 8, bottom: 0, left: 0 } },
     ...extra
@@ -24,11 +37,18 @@ function baseOptions(extra = {}) {
 function makeChart(id, type, rows, label, extra = {}) {
   const canvas = document.getElementById(id);
   if (!canvas) return;
+  if (!chartsAvailable) {
+    const box = canvas.parentElement;
+    if (box) {
+      box.innerHTML = `<div class="chart-fallback">${label} visualization data is available in the published dataset. Reload with Chart.js access to view the interactive chart.</div>`;
+    }
+    return;
+  }
   const dataset = {
     label,
     data: values(rows),
-    backgroundColor: type === "line" ? "rgba(31, 90, 122, 0.14)" : palette,
-    borderColor: "#1f5a7a",
+    backgroundColor: type === "line" ? "rgba(242, 199, 102, 0.16)" : palette,
+    borderColor: type === "line" ? "#f2c766" : "#66b7d8",
     borderWidth: 2,
     pointRadius: type === "line" ? 4 : 0,
     pointHoverRadius: 5,
@@ -44,16 +64,16 @@ function makeChart(id, type, rows, label, extra = {}) {
 
 const cartesian = {
   scales: {
-    y: { beginAtZero: true, grid: { color: "#e6edf3" }, ticks: { color: "#5b6875" } },
-    x: { grid: { display: false }, ticks: { color: "#5b6875", maxRotation: 0, autoSkip: true } }
+    y: { beginAtZero: true, grid: { color: "#31464c" }, ticks: { color: "#aebcbd" } },
+    x: { grid: { display: false }, ticks: { color: "#aebcbd", maxRotation: 0, autoSkip: true } }
   }
 };
 
 const horizontal = {
   indexAxis: "y",
   scales: {
-    x: { beginAtZero: true, grid: { color: "#e6edf3" }, ticks: { color: "#5b6875" } },
-    y: { grid: { display: false }, ticks: { color: "#5b6875" } }
+    x: { beginAtZero: true, grid: { color: "#31464c" }, ticks: { color: "#aebcbd" } },
+    y: { grid: { display: false }, ticks: { color: "#c5d0d0" } }
   }
 };
 
