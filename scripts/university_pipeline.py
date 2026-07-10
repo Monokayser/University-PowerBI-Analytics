@@ -234,6 +234,7 @@ def clean_dataset() -> dict[str, pd.DataFrame]:
             df[col] = df[col].astype(str).str.strip().replace({"nan": np.nan, "None": np.nan})
     tables["Students"]["Gender"] = tables["Students"]["Gender"].str.title().replace({"M": "Male", "F": "Female"})
     tables["Students"]["StudentStatus"] = tables["Students"]["StudentStatus"].str.title().replace({"Active ": "Active"})
+    tables["Students"]["ScholarshipStatus"] = tables["Students"]["ScholarshipStatus"].fillna("None")
     tables["Students"] = tables["Students"].drop_duplicates("StudentID")
     tables["StudentProfile"] = tables["StudentProfile"].drop_duplicates("StudentID")
     tables["Departments"]["DepartmentName"] = tables["Departments"]["DepartmentName"].str.title()

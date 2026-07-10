@@ -29,3 +29,6 @@ The `docs/` folder is prepared for GitHub Pages and contains:
 ## Important Limitation
 
 The published viewer is a static analytics publication generated from the cleaned data. It does not replace a genuine Power BI Service report. Power BI Desktop was unavailable in the build environment, so the `.pbix` and Power BI Service live report must still be created manually from the included build guide.
+
+- `assets/screenshots/published_dashboard.png` - real screenshot from the published analytics page
+- `assets/screenshots/demo_page.png` - real screenshot from the demo video page

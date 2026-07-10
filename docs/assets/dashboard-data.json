@@ -12,7 +12,7 @@
     "avgAttendance": 81.76,
     "outstanding": 125733250.0,
     "collectionRate": 65.07,
-    "scholarshipRate": 100.0
+    "scholarshipRate": 32.0
   },
   "charts": {
     "enrollmentBySemester": [
@@ -485,7 +485,7 @@
     },
     {
       "Finding": "Scholarship distribution",
-      "Observation": "100.0% of students receive a scholarship.",
+      "Observation": "32.0% of students receive a scholarship.",
       "Interpretation": "Scholarship policy can be analyzed against performance and retention.",
       "Possible Explanation": "Merit and need-based categories serve different goals.",
       "Recommended Action": "Track outcomes by scholarship type.",

@@ -11,6 +11,13 @@ Synthetic university analytics project for the assignment **Data Analysis and Re
 - Release package: [v1.1.0](https://github.com/Monokayser/University-PowerBI-Analytics/releases/tag/v1.1.0)
 - Published access notes: `PUBLISHED_ANALYTICS.md`
 
+
+## Screenshots
+
+![Published analytics dashboard](screenshots/published_analytics/published_dashboard.png)
+
+![Demo video page](screenshots/published_analytics/demo_page.png)
+
 ## Dataset Size
 
 - Students: 1,000
@@ -64,7 +71,7 @@ python scripts/exploratory_analysis.py
 - **Attendance relationship:** Lower attendance bands show lower average final marks. Recommendation: Trigger advising below 75% attendance.
 - **Outstanding payments:** Outstanding balance totals 125,733,250. Recommendation: Segment outreach by payment risk level.
 - **Budget utilization:** D007 has the highest utilization in 2023. Recommendation: Review mid-year budget reallocations.
-- **Scholarship distribution:** 100.0% of students receive a scholarship. Recommendation: Track outcomes by scholarship type.
+- **Scholarship distribution:** 32.0% of students receive a scholarship. Recommendation: Track outcomes by scholarship type.
 - **Faculty workload:** Enrollment links faculty to taught courses for workload analysis. Recommendation: Monitor distinct courses and enrollments per faculty.
 - **Graduation eligibility:** Credit and GPA measures identify students approaching eligibility. Recommendation: Add drill-through student review page.
 - **Payment status:** Paid, partial, and unpaid categories provide finance risk visibility. Recommendation: Use respectful outreach workflows.
